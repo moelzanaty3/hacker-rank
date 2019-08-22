@@ -1,6 +1,6 @@
 package com.hackerRank;
 
-public class Animal {
+abstract class Animal {
 
     private int age;
 
@@ -13,11 +13,12 @@ public class Animal {
         System.out.println("An animal has been created with age " + this.age);
     }
 
-    public void eat() {
-        System.out.println("The animal is eating");
-    }
+    abstract void eat();
 
-    public int getAge() {
+    void sleep() {
+        System.out.println("An animal is sleeping");
+    }
+    int getAge() {
         return age;
     }
 }
