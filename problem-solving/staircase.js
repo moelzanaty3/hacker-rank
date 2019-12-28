@@ -1,3 +1,10 @@
+/**
+ * Complete the staircase function in the editor below. It should print a staircase as described above.
+ * staircase has the following parameter(s):
+ * n: an integer
+ * @param {*} numberOfStairs 
+ */
+
 function staircase(numberOfStairs) {
 
     let stair = '#';
